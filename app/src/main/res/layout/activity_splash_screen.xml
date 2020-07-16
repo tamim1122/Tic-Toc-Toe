@@ -13,7 +13,6 @@
         android:layout_width="350dp"
         android:layout_height="350dp"
         android:layout_centerInParent="true"
-        android:src="@drawable/logo"
 
         />
     <EditText
@@ -23,7 +22,6 @@
         android:text="@string/splash_text"
         android:textColor="@color/splashfontcolor"
         android:textSize="40sp"
-        android:layout_below="@+id/logoimg"
         android:layout_centerInParent="true"
         />
 

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameLaunch">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gameplayer1"
+            android:text="@string/gameplayer1_txt"
+            android:textSize="25sp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gameplayer2"
+            android:text="@string/gameplayer2_txt"
+            android:textSize="25sp"
+            android:layout_toRightOf="@id/gameplayer1"
+            android:layout_marginLeft="50dp"
+            />
+
+        <Button
+            android:id="@+id/resetntn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/gameplayer2"
+            android:layout_marginLeft="80dp"
+            android:text="Reset"
+
+            />
+
+
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>
